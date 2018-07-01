@@ -1,0 +1,29 @@
+:root {
+    --blockSize: 20px;
+}
+.row {
+    display: flex;
+}
+
+.block {
+    height: var(--blockSize);
+    width: var(--blockSize);
+    box-sizing: border-box;
+}
+
+.side {
+    border-left: 1px solid black;   
+    width: 1px;
+}
+
+.bottom {
+    border-bottom: 1px solid black;
+}
+
+.player {
+    height: calc( var(--blockSize) / 2 );
+    width: calc( var(--blockSize) / 2 );
+    border-radius: 50%;
+    background: red;
+    box-sizing: border-box;
+}
